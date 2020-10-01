@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(19,60,85);
+    background: linear-gradient(135deg, rgba(19,60,85,1) 0%, rgba(56,111,164,1) 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-nav{
+    background: rgba(0,0,0,0.1);
+}
+.navlink{
+    color: white;
+
+}
+.navlink:hover{
+    color: white;
+    text-decoration: none;
+}
+.navbox{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: solid 3px transparent;
+}
+.navbox:hover{
+    border-bottom: solid 3px white;
+    transform: scale(1.15);
+    transition-duration: 0.15s;
+}
+.pressed{
+    border-bottom: solid 3px white;
+    transform: scale(1.15);
+    cursor: default;
+}
+.nocursor{
+    cursor: default !important;
+}
+.lastitem{
+    margin-right: 0 !important;
+}
