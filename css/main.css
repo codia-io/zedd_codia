@@ -6,7 +6,7 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: white;
+    background-color: #f7f7f7;
     /* background: rgb(19,60,85);
     background: linear-gradient(135deg, rgba(19,60,85,1) 0%, rgba(56,111,164,1) 100%); */
     font-family: 'Open Sans', sans-serif;
@@ -29,9 +29,6 @@ hr{
     background-size: cover;
     background-color: #f7f7f7;
 
-}
-.secheader{
-    height: 500px;
 }
 .navlink{
     color: black;
@@ -76,4 +73,24 @@ hr{
 }
 h1{
     font-size: 70px;
+}
+.bgcolor1{
+    background-color : #227C9D;
+    color: white;
+}
+.h-500{
+    height: 500px;
+}
+.btn1{
+    background-color: transparent;
+    border: solid 2px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.white{
+    color :white;
+}
+.foot{
+    text-align: center;
+    height: 50px;
 }
