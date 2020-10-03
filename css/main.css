@@ -81,16 +81,98 @@ h1{
 .h-500{
     height: 500px;
 }
+.h-700{
+    height: 700px;
+}
+.h-10{
+    height: 10%;
+}
+.feature{
+    height: 20%;
+    display: flex;
+}
+.h-70{
+    height: 70%;
+}
 .btn1{
     background-color: transparent;
     border: solid 2px;
     border-radius: 2px;
     padding: 10px;
-}
-.white{
     color :white;
+}
+.btn1:hover{
+    background-color: white;
+    border: solid  white 2px;
+    border-radius: 2px;
+    padding: 10px;
+    color : #227C9D;
+    transition-duration: 0.25s;
+}
+.btn2{
+    background-color: transparent;
+    border: solid 2px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.btn2:hover{
+    background-color: black;
+    border: solid black 2px;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    transition-duration: 0.25s;
 }
 .foot{
     text-align: center;
     height: 50px;
+}
+.pricecell{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    color: black;
+}
+.basic{
+    background-color: #1BA8AA;
+    color: white;
+}
+.premium{
+    background-color: #DFBD4C;
+    color: white;
+}
+.platinum{
+    background-color: #D04D4C;
+    color: white;
+}
+.btnbasic{
+    background-color: #1BA8AA;
+    border: solid 2px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color :white;
+}
+.btnpremium{
+    background-color: #DFBD4C;
+    border: solid 2px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color :white;
+}
+.btnplatinum{
+    background-color: #D04D4C;
+    border: solid 2px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color :white;
 }
