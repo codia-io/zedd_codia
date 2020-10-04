@@ -134,6 +134,10 @@ h1{
     border-radius: 5px;
     color: black;
 }
+.pricecell:hover{
+    transform: scale(1.03);
+    transition-duration: 0.25s;
+}
 .basic{
     background-color: #1BA8AA;
     color: white;
