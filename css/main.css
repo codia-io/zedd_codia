@@ -58,9 +58,7 @@ hr{
 .nocursor{
     cursor: default !important;
 }
-.lastitem{
-    margin-right: 0 !important;
-}
+
 .mheader{
     text-align: center;
 }
@@ -77,9 +75,6 @@ h1{
 .bgcolor1{
     background-color : #227C9D;
     color: white;
-}
-.h-500{
-    height: 500px;
 }
 .h-700{
     height: 700px;
@@ -215,4 +210,29 @@ h1{
 }
 iframe{
     overflow:inherit;
+}
+@media only screen and (min-width: 992px) {
+    .lastitem{
+        margin-right: 0 !important;
+    }
+    .nav-margin{
+        /*my-auto  mx-auto ml-md-auto*/
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .h-md-500{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .nav-margin{
+        margin: auto;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .h-md-500{
+        height: 400px;
+    }
 }
