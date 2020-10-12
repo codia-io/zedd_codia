@@ -27,16 +27,8 @@ hr{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7
 
-}
-.navlink{
-    color: black;
-
-}
-.navlink:hover{
-    color: black;
-    text-decoration: none;
 }
 .navbox{
     margin-left: 20px;
@@ -51,24 +43,40 @@ hr{
     transition-duration: 0.15s;
 }
 .pressed{
-    border-bottom: solid 3px black;
+    border-bottom: solid 3px transparent;
     transform: scale(1.15);
+    font-weight: bold;
+    cursor: default;
+}
+.pressed:hover{
+    border-bottom: solid 3px transparent;
+    transform: scale(1.15);
+    font-weight: bold;
     cursor: default;
 }
 .nocursor{
     cursor: default !important;
+    color: #227C9D !important;
 }
+.navlink{
+    color: black;
 
+}
+.navlink:hover{
+    color: black;
+    text-decoration: none;
+}
+.nocursor:hover{
+    cursor: default !important;
+    color: #227C9D !important;
+}
 .mheader{
     text-align: center;
 }
 .titleheader{
     margin-bottom: 50px;
 }
-.textheader{
-    margin-left: 25%;
-    margin-right: 25%;
-}
+
 h1{
     font-size: 70px;
 }
@@ -121,6 +129,11 @@ h1{
 .foot{
     text-align: center;
     height: 50px;
+    border-top: rgba(2,2,2,0.1) 1px solid;
+}
+.foot-block{
+    height: 300px;
+    display: flex;
 }
 .pricecell{
     background-color: #f7f7f7;
@@ -179,6 +192,57 @@ h1{
     padding-left: 30px;
     color :white;
 }
+.round{
+    border-radius: 50px;
+}
+iframe{
+    overflow:inherit;
+}
+@media only screen and (min-width: 992px) {
+    .lastitem{
+        margin-right: 0 !important;
+    }
+    .nav-margin{
+        /*my-auto  mx-auto ml-md-auto*/
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .h-md-500{
+        height: 500px;
+    }
+    .button-container{
+        height: 325px;
+    }
+    .textheader{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .arrows-container{
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .nav-margin{
+        margin: auto;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .h-md-500{
+        height: 400px;
+    }
+    .button-container{
+        height: 975px;
+    }
+    .textheader{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .disappear{
+        display: none !important;
+    }
+}
 .person{
     background-color: #f7f7f7;
     width: 100%;
@@ -208,31 +272,14 @@ h1{
 .round{
     border-radius: 50px;
 }
-iframe{
-    overflow:inherit;
+.arrows-container{
+    height: 60px;
 }
-@media only screen and (min-width: 992px) {
-    .lastitem{
-        margin-right: 0 !important;
-    }
-    .nav-margin{
-        /*my-auto  mx-auto ml-md-auto*/
-        margin-left: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    .h-md-500{
-        height: 500px;
-    }
+.next-prev{
+    color: white;
+    text-decoration: none;
 }
-@media only screen and (max-width: 991px) {
-    .nav-margin{
-        margin: auto;
-    }
-    h1{
-        font-size: 40px;
-    }
-    .h-md-500{
-        height: 400px;
-    }
+.next-prev:hover{
+    color: white;
+    text-decoration: none;
 }
